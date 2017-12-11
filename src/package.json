@@ -1,0 +1,29 @@
+{
+  "name": "ng-neo-electron",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neocomplexx/ng-neo-electron"
+  },
+  "author": {
+    "name": "Sebastian Larrieu",
+    "email": "slarriue@neocomplexx.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neocomplexx/ng-neo-electron/issues"
+  },
+  "main": "ng-neo-electron.umd.js",
+  "module": "ng-neo-electron.js",
+  "jsnext:main": "ng-neo-electron.js",
+  "typings": "ng-neo-electron.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "electron": "^1.7.9",
+    "zone.js": "^0.8.4"
+  }
+}
