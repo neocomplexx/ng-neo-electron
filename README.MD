@@ -40,7 +40,7 @@ Once library is imported, you can use it in your Angular application:
 ```typescript
 import { NeoElectronService } from 'ng-neo-electron';
 
-constructor(private electronService: NeoElectronService(){}
+constructor(private electronService: NeoElectronService){}
 
 // In any function
 if( this.electronService.isElectronApp())
