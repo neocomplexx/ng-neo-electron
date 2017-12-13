@@ -47,6 +47,12 @@
                                 <li class="link">
                                   <a href="./index.html"  class="active" ><span class="fa fa-file-text-o"></span>README</a>
                                 </li>
+                                <li class="link">
+                                        <a href="./license.html"
+                                    >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
                         </ul>
                     </li>
             
@@ -207,6 +213,12 @@
                                        <li class="link">
                                          <a href="./index.html"  class="active" ><span class="fa fa-file-text-o"></span>README</a>
                                        </li>
+                                       <li class="link">
+                                               <a href="./license.html"
+                                           >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
                                </ul>
                            </li>
                    
@@ -338,6 +350,7 @@
                    <div class="content-data">
 
 <h1 id="ng-neo-electron">ng-neo-electron</h1>
+<p>Comunication service between Angular and Electron</p>
 <h2 id="installation">Installation</h2>
 <p>To install this library, run:</p>
 <pre class="line-numbers"><code class="language-bash">$ npm install ng-neo-electron --save</code></pre><p>and then from your Angular <code>AppModule</code>:</p>
@@ -365,7 +378,7 @@ import { NeoElectronModule } from &#39;ng-neo-electron&#39;;
 export class AppModule { }</code></pre><p>Once library is imported, you can use it in your Angular application:</p>
 <pre class="line-numbers"><code class="language-typescript">import { NeoElectronService } from &#39;ng-neo-electron&#39;;
 
-constructor(private electronService: NeoElectronService(){}
+constructor(private electronService: NeoElectronService){}
 
 // In any function
 if( this.electronService.isElectronApp())

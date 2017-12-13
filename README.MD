@@ -1,4 +1,5 @@
 # ng-neo-electron
+Comunication service between Angular and Electron
 
 ## Installation
 
